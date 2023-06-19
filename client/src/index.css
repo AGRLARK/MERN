@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* Written by me */
+.contact_info_item{
+  margin-top: 40px;
+  padding-left: 230px;
+  color: rgb(16, 14, 14);
+}
+
+.all-contact{
+  display: flex;
+}
+
+.border_design{
+  padding: 20px;
+  border: 2px solid rgb(32, 32, 30);
+  border-radius: 25px;
+}
+
+/* about css */
+.containers{
+  /* background-color: yellow; */
+  /* background-color: yellow; */
+  height: 715px;
+  width: 1530px;
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.about-box{
+  background-color: yellow;
+  height: 500px;
+  width: 650px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 10px 10px 28px red;
+  border-radius: 25px;
+
+}
+
+.about-box-left{
+  align-items:start ;
+  text-align: left;
+  justify-content: left;
+  height: 200px;
+  width: 200px;
+}
+
+.about-box-left img{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.about-row{
+  display: flex;
+    justify-content: space-between;
+}
+
+ /* IMG */
+.img-logo img{
+  height: 150px;
+  width: 150px;
+}
+
+.about-box-right{
+  align-items: start;
+  justify-content: right;
+  text-align: right;
+}
+
+.about-box-data{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.navbar-tablist{
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+
+
+.about-box-data{
+  font-size: 12px;
+}
+
+.about-tab{
+  align-items: start;
+  justify-content: left;
+  text-align: left;
+}
+
+/* ID Link  */
+.profile-work{
+  font-size: 12px;
+}
+
+/* Contact css */
+/* .container-contact{
+  background-color: rgb(254, 226, 86);
+    height: 700px;
+    width: 350px;
+    border: 1px solid;
+    padding: 110px;
+    box-shadow: 10px 10px 28px red;
+} */
+
+/* Login css */
+.signin{
+  height: 400px;
+  width: 400px;
+  background-color: yellow;
+  box-shadow:10px 10px 28px red;
+  margin-top: 100px;
+  margin-left: 500px;
+  border-radius: 25px;
+}
+
+.container-login{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.signin-link button{
+  background-color: rgb(247, 55, 34);
+  color: white;
+}
+
+/* Signup CSS */
+.container-signup{
+  height: 500px;
+  width: 500px;
+  /* align-items: center;
+  justify-content: center; */
+  margin-top: 100px;
+  margin-left: 600px;
+  background-color: yellow;
+  box-shadow:10px 10px 28px red;
+  border-radius: 25px;
+}
+
+.signup-content{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+#signup-btn button{
+  color: white;
+  background-color: rgb(247, 55, 34);
+}
